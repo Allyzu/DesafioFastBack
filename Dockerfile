@@ -18,5 +18,5 @@ COPY --from=build /app ./
 
 EXPOSE 8080
 
-# Rodar migrations antes de iniciar o app
-ENTRYPOINT ["sh", "-c", "dotnet ef database update && dotnet DesafioFast.dll"]
+# Apenas inicia o app
+ENTRYPOINT ["dotnet", "DesafioFast.dll"]
