@@ -89,17 +89,37 @@ builder.Services.AddScoped<IColaboradorService, ColaboradorService>();
 builder.Services.AddScoped<IAtaService, AtaServices>();
 
 // Banco
-builder.Services.AddDbContext<ApppDbContext>(options =>
+ builder.Services.AddDbContext<ApppDbContext>(options =>
 {
-    // Pega a URL do Railway ou fallback para local
-    var connectionString = Environment.GetEnvironmentVariable("DATABASE_URL")
-                      ?? builder.Configuration.GetConnectionString("DefaultConnection");
+    var rawUrl = Environment.GetEnvironmentVariable("DATABASE_URL")
+                 ?? builder.Configuration.GetConnectionString("DefaultConnection");
 
-    if (string.IsNullOrEmpty(connectionString))
+    if (string.IsNullOrEmpty(rawUrl))
         throw new InvalidOperationException("A connection string não foi configurada.");
 
-    options.UseNpgsql(connectionString);
+    // Se vier no formato URL (Railway), converte
+    if (rawUrl.StartsWith("postgres://") || rawUrl.StartsWith("postgresql://"))
+    {
+        var databaseUri = new Uri(rawUrl);
+        var userInfo = databaseUri.UserInfo.Split(':');
+
+        var npgsqlConnectionString = new Npgsql.NpgsqlConnectionStringBuilder
+        {
+            Host = databaseUri.Host,
+            Port = databaseUri.Port,
+            Username = userInfo[0],
+            Password = userInfo[1],
+            Database = databaseUri.AbsolutePath.TrimStart('/'),
+            SslMode = Npgsql.SslMode.Require,
+            TrustServerCertificate = true
+        }.ToString();
+
+        rawUrl = npgsqlConnectionString;
+    }
+
+    options.UseNpgsql(rawUrl);
 });
+
 
 // JWT TokenService
 builder.Services.AddSingleton<TokenService>();
