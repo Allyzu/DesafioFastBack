@@ -1,0 +1,345 @@
+[
+  {
+    "ContainingType": "DesafioFast.Controllers.AtasController",
+    "Method": "GetAtaId",
+    "RelativePath": "api/Atas/{ataId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ataId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DesafioFast.Controllers.AtasController",
+    "Method": "AdicionarColaborador",
+    "RelativePath": "api/Atas/{ataId}/colaboradores/{colaboradorId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ataId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "colaboradorId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DesafioFast.Controllers.AtasController",
+    "Method": "RemoverColaborador",
+    "RelativePath": "api/Atas/{ataId}/colaboradores/{colaboradorId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ataId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "colaboradorId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DesafioFast.Controllers.AtasController",
+    "Method": "CriarAtaAutomaticamente",
+    "RelativePath": "api/Atas/criar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DesafioFast.Controllers.AtasController",
+    "Method": "CriarAtaAutomaticamente",
+    "RelativePath": "api/Atas/gerar-ata/{workshopId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "workshopId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DesafioFast.Controllers.AtasController",
+    "Method": "GetAtas",
+    "RelativePath": "api/Atas/listar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DesafioFast.Controllers.AtasController",
+    "Method": "GetAtaByWorkshop",
+    "RelativePath": "api/Atas/workshop/{workshopId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "workshopId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DesafioFast.Controllers.LoginController",
+    "Method": "Anonymous",
+    "RelativePath": "api/auth/anonymous",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DesafioFast.Controllers.LoginController",
+    "Method": "Autenticado",
+    "RelativePath": "api/auth/autenticado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DesafioFast.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "api/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "DesafioFast.Models.UsuarioModels",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DesafioFast.Controllers.LoginController",
+    "Method": "Me",
+    "RelativePath": "api/auth/me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DesafioFast.Controllers.ColaboradoresControllers",
+    "Method": "AdicionarColaboradorEmWorkshop",
+    "RelativePath": "api/colaboradores/{nome}/workshops/{workshopId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nome",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "workshopId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DesafioFast.Controllers.ColaboradoresControllers",
+    "Method": "CriarColaborador",
+    "RelativePath": "api/colaboradores/Criarcolaboradores",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "colaboradoresCriacaoDto",
+        "Type": "DesafioFast.Dto.ColaboradoresCriacaoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DesafioFast.Controllers.ColaboradoresControllers",
+    "Method": "GetTodosColaboradores",
+    "RelativePath": "api/colaboradores/listarcolaboradores",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DesafioFast.Controllers.ColaboradoresControllers",
+    "Method": "GetColaboradoresOrdenados",
+    "RelativePath": "api/colaboradores/ordenados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraficosController",
+    "Method": "ColaboradoresPorWorkshop",
+    "RelativePath": "api/graficos/colaboradores-por-workshop",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GraficosController",
+    "Method": "WorkshopsPorColaborador",
+    "RelativePath": "api/graficos/workshops-por-colaborador",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DesafioFast.Controllers.WorkshopsController",
+    "Method": "GetById",
+    "RelativePath": "api/Workshops/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DesafioFast.Controllers.WorkshopsController",
+    "Method": "GetWorkshopColaboradores",
+    "RelativePath": "api/Workshops/{workshopId}/colaboradores",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "workshopId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DesafioFast.Controllers.WorkshopsController",
+    "Method": "BuscarPorData",
+    "RelativePath": "api/Workshops/buscar-data",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DesafioFast.Controllers.WorkshopsController",
+    "Method": "BuscarPorNome",
+    "RelativePath": "api/Workshops/buscar-nome",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nome",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DesafioFast.Controllers.WorkshopsController",
+    "Method": "CriarWorkshop",
+    "RelativePath": "api/Workshops/criar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "workshopdto",
+        "Type": "DesafioFast.Dto.WorkshopDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DesafioFast.Controllers.WorkshopsController",
+    "Method": "ListarWorkshops",
+    "RelativePath": "api/Workshops/GetAllWorkshops",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
