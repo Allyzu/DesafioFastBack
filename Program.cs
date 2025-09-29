@@ -17,7 +17,10 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowAngularApp", policy =>
     {
         policy
-            .WithOrigins("http://localhost:4200")
+            .WithOrigins(
+                "http://localhost:4200", // front local
+                "https://desafio-fast-front-nd7urxm5y-allysons-projects-ccc82da7.vercel.app" // front deployado
+            )
             .AllowAnyHeader()
             .AllowAnyMethod()
             .AllowCredentials();
