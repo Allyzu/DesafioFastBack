@@ -895,3 +895,5 @@ C:\Users\O\Documents\DesafioFastBack\obj\Debug\net8.0\DesafioFast.genruntimeconf
 C:\Users\O\Documents\DesafioFastBack\obj\Debug\net8.0\ref\DesafioFast.dll
 C:\Users\O\Documents\DesafioFastBack\bin\Debug\net8.0\Npgsql.dll
 C:\Users\O\Documents\DesafioFastBack\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\O\Documents\DesafioFastBack\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\O\Documents\DesafioFastBack\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
