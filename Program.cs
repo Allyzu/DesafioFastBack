@@ -88,11 +88,14 @@ builder.Services.AddScoped<IWorkshopService, WorkshopService>();
 builder.Services.AddScoped<IColaboradorService, ColaboradorService>();
 builder.Services.AddScoped<IAtaService, AtaServices>();
 
-// DbContext - SQL Server
 builder.Services.AddDbContext<ApppDbContext>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+    // Usa variável de ambiente DATABASE_URL se existir, senão usa a connection string local
+    var connectionString = Environment.GetEnvironmentVariable("DATABASE_URL") 
+                           ?? builder.Configuration.GetConnectionString("DefaultConnection");
+    options.UseSqlServer(connectionString);
 });
+
 
 // JWT TokenService
 builder.Services.AddSingleton<TokenService>();
