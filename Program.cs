@@ -60,7 +60,9 @@ builder.Services.AddScoped<IColaboradorService, ColaboradorService>();
 builder.Services.AddScoped<IAtaService, AtaServices>();
 
 // Banco MySQL
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+var connectionString = Environment.GetEnvironmentVariable("DefaultConnection")
+                       ?? builder.Configuration.GetConnectionString("DefaultConnection");
+
 builder.Services.AddDbContext<ApppDbContext>(options =>
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString))
 );
