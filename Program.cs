@@ -11,7 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container
 builder.Services.AddControllers();
 
-// Configura��o do CORS
+// Configuração do CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAngularApp", policy =>
@@ -24,10 +24,10 @@ builder.Services.AddCors(options =>
     });
 });
 
-// Configura��o do JWT
+// Configuração do JWT
 var jwtKey = builder.Configuration["Jwt:Key"];
 if (string.IsNullOrEmpty(jwtKey))
-    throw new InvalidOperationException("A chave JWT n�o est� configurada. Verifique 'Jwt:Key'.");
+    throw new InvalidOperationException("A chave JWT não está configurada. Verifique 'Jwt:Key'.");
 
 var key = Encoding.ASCII.GetBytes(jwtKey);
 builder.Services.AddAuthentication(x =>
@@ -83,24 +83,35 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
-// Inje��o de depend�ncia
+// Injeção de dependência
 builder.Services.AddScoped<IWorkshopService, WorkshopService>();
 builder.Services.AddScoped<IColaboradorService, ColaboradorService>();
 builder.Services.AddScoped<IAtaService, AtaServices>();
 
+// Banco
 builder.Services.AddDbContext<ApppDbContext>(options =>
 {
-    // Usa variável de ambiente DATABASE_URL se existir, senão usa a connection string local
-    var connectionString = Environment.GetEnvironmentVariable("DATABASE_URL") 
-                           ?? builder.Configuration.GetConnectionString("DefaultConnection");
-    options.UseSqlServer(connectionString);
-});
+    // Pega a URL do Railway ou fallback para local
+    var connectionString = Environment.GetEnvironmentVariable("DATABASE_URL")
+                      ?? builder.Configuration.GetConnectionString("DefaultConnection");
 
+    if (string.IsNullOrEmpty(connectionString))
+        throw new InvalidOperationException("A connection string não foi configurada.");
+
+    options.UseNpgsql(connectionString);
+});
 
 // JWT TokenService
 builder.Services.AddSingleton<TokenService>();
 
 var app = builder.Build();
+
+// ✅ APLICA MIGRATIONS AUTOMATICAMENTE NA SUBIDA
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<ApppDbContext>();
+    db.Database.Migrate();
+}
 
 // Swagger sempre ativo
 app.UseSwagger();
@@ -111,7 +122,7 @@ app.UseSwaggerUI(c =>
 });
 
 // Removido o redirecionamento HTTPS para desenvolvimento local
- app.UseHttpsRedirection();
+app.UseHttpsRedirection();
 
 app.UseCors("AllowAngularApp");
 
