@@ -1,34 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\O\\Documents\\DesafioFast\\",
+  "WorkspaceRootPath": "D:\\Workspace\\DesafioFastBack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\O\\Documents\\DesafioFast\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21169773-CF47-E4A1-9E5C-44DFE6937D95}|DesafioFast.csproj|d:\\workspace\\desafiofastback\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21169773-CF47-E4A1-9E5C-44DFE6937D95}|DesafioFast.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\O\\Documents\\DesafioFast\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{21169773-CF47-E4A1-9E5C-44DFE6937D95}|DesafioFast.csproj|d:\\workspace\\desafiofastback\\controllers\\workshopscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21169773-CF47-E4A1-9E5C-44DFE6937D95}|DesafioFast.csproj|solutionrelative:controllers\\workshopscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\O\\Documents\\DesafioFast\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{21169773-CF47-E4A1-9E5C-44DFE6937D95}|DesafioFast.csproj|d:\\workspace\\desafiofastback\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21169773-CF47-E4A1-9E5C-44DFE6937D95}|DesafioFast.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\O\\Documents\\DesafioFast\\Data\\ApppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\ApppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21169773-CF47-E4A1-9E5C-44DFE6937D95}|DesafioFast.csproj|d:\\workspace\\desafiofastback\\controllers\\graficoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21169773-CF47-E4A1-9E5C-44DFE6937D95}|DesafioFast.csproj|solutionrelative:controllers\\graficoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\O\\Documents\\DesafioFast\\Controllers\\AtasController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\AtasController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21169773-CF47-E4A1-9E5C-44DFE6937D95}|DesafioFast.csproj|d:\\workspace\\desafiofastback\\controllers\\atascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21169773-CF47-E4A1-9E5C-44DFE6937D95}|DesafioFast.csproj|solutionrelative:controllers\\atascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\O\\Documents\\DesafioFast\\Services\\AtaServices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\AtaServices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21169773-CF47-E4A1-9E5C-44DFE6937D95}|DesafioFast.csproj|d:\\workspace\\desafiofastback\\controllers\\colaboradorescontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21169773-CF47-E4A1-9E5C-44DFE6937D95}|DesafioFast.csproj|solutionrelative:controllers\\colaboradorescontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\O\\Documents\\DesafioFast\\Services\\IWorkshopService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\IWorkshopService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21169773-CF47-E4A1-9E5C-44DFE6937D95}|DesafioFast.csproj|d:\\workspace\\desafiofastback\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21169773-CF47-E4A1-9E5C-44DFE6937D95}|DesafioFast.csproj|solutionrelative:services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21169773-CF47-E4A1-9E5C-44DFE6937D95}|DesafioFast.csproj|d:\\workspace\\desafiofastback\\models\\usuariomodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21169773-CF47-E4A1-9E5C-44DFE6937D95}|DesafioFast.csproj|solutionrelative:models\\usuariomodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21169773-CF47-E4A1-9E5C-44DFE6937D95}|DesafioFast.csproj|d:\\workspace\\desafiofastback\\appsettings.json||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{21169773-CF47-E4A1-9E5C-44DFE6937D95}|DesafioFast.csproj|solutionrelative:appsettings.json||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21169773-CF47-E4A1-9E5C-44DFE6937D95}|DesafioFast.csproj|d:\\workspace\\desafiofastback\\models\\workshopmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21169773-CF47-E4A1-9E5C-44DFE6937D95}|DesafioFast.csproj|solutionrelative:models\\workshopmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21169773-CF47-E4A1-9E5C-44DFE6937D95}|DesafioFast.csproj|d:\\workspace\\desafiofastback\\models\\atamodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21169773-CF47-E4A1-9E5C-44DFE6937D95}|DesafioFast.csproj|solutionrelative:models\\atamodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21169773-CF47-E4A1-9E5C-44DFE6937D95}|DesafioFast.csproj|d:\\workspace\\desafiofastback\\dockerfile||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{21169773-CF47-E4A1-9E5C-44DFE6937D95}|DesafioFast.csproj|solutionrelative:dockerfile||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21169773-CF47-E4A1-9E5C-44DFE6937D95}|DesafioFast.csproj|d:\\workspace\\desafiofastback\\desafiofast.http||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{21169773-CF47-E4A1-9E5C-44DFE6937D95}|DesafioFast.csproj|solutionrelative:desafiofast.http||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Workspace\\DesafioFastBack\\DesafioFast.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DesafioFast.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,92 +66,184 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\O\\Documents\\DesafioFast\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\O\\Documents\\DesafioFast\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-26T18:23:27.524Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\O\\Documents\\DesafioFast\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\O\\Documents\\DesafioFast\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-26T18:22:43.32Z"
+              "Title": "WorkshopsController.cs",
+              "DocumentMoniker": "D:\\Workspace\\DesafioFastBack\\Controllers\\WorkshopsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WorkshopsController.cs",
+              "ToolTip": "D:\\Workspace\\DesafioFastBack\\Controllers\\WorkshopsController.cs",
+              "RelativeToolTip": "Controllers\\WorkshopsController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T19:17:16.028Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ApppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\O\\Documents\\DesafioFast\\Data\\ApppDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApppDbContext.cs",
-              "ToolTip": "C:\\Users\\O\\Documents\\DesafioFast\\Data\\ApppDbContext.cs",
-              "RelativeToolTip": "Data\\ApppDbContext.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAiwDkAAAAlAAAAAAAAAA==",
+              "Title": "GraficosController.cs",
+              "DocumentMoniker": "D:\\Workspace\\DesafioFastBack\\Controllers\\GraficosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GraficosController.cs",
+              "ToolTip": "D:\\Workspace\\DesafioFastBack\\Controllers\\GraficosController.cs",
+              "RelativeToolTip": "Controllers\\GraficosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T17:42:40.32Z"
+              "WhenOpened": "2025-10-20T19:17:08.714Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "AtasController.cs",
-              "DocumentMoniker": "C:\\Users\\O\\Documents\\DesafioFast\\Controllers\\AtasController.cs",
+              "DocumentMoniker": "D:\\Workspace\\DesafioFastBack\\Controllers\\AtasController.cs",
               "RelativeDocumentMoniker": "Controllers\\AtasController.cs",
-              "ToolTip": "C:\\Users\\O\\Documents\\DesafioFast\\Controllers\\AtasController.cs",
+              "ToolTip": "D:\\Workspace\\DesafioFastBack\\Controllers\\AtasController.cs",
               "RelativeToolTip": "Controllers\\AtasController.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAiwGEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T17:42:28.729Z"
+              "WhenOpened": "2025-10-20T19:17:05.289Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "AtaServices.cs",
-              "DocumentMoniker": "C:\\Users\\O\\Documents\\DesafioFast\\Services\\AtaServices.cs",
-              "RelativeDocumentMoniker": "Services\\AtaServices.cs",
-              "ToolTip": "C:\\Users\\O\\Documents\\DesafioFast\\Services\\AtaServices.cs",
-              "RelativeToolTip": "Services\\AtaServices.cs",
-              "ViewState": "AgIAALAAAAAAAAAAAAAiwPcAAABQAAAAAAAAAA==",
+              "Title": "ColaboradoresControllers.cs",
+              "DocumentMoniker": "D:\\Workspace\\DesafioFastBack\\Controllers\\ColaboradoresControllers.cs",
+              "RelativeDocumentMoniker": "Controllers\\ColaboradoresControllers.cs",
+              "ToolTip": "D:\\Workspace\\DesafioFastBack\\Controllers\\ColaboradoresControllers.cs",
+              "RelativeToolTip": "Controllers\\ColaboradoresControllers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T17:22:27.121Z"
+              "WhenOpened": "2025-10-20T19:17:01.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\Workspace\\DesafioFastBack\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "D:\\Workspace\\DesafioFastBack\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAiwDYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T19:09:43.617Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "IWorkshopService.cs",
-              "DocumentMoniker": "C:\\Users\\O\\Documents\\DesafioFast\\Services\\IWorkshopService.cs",
-              "RelativeDocumentMoniker": "Services\\IWorkshopService.cs",
-              "ToolTip": "C:\\Users\\O\\Documents\\DesafioFast\\Services\\IWorkshopService.cs",
-              "RelativeToolTip": "Services\\IWorkshopService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA/AAAAAAAAAA==",
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\Workspace\\DesafioFastBack\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "Services\\TokenService.cs",
+              "ToolTip": "D:\\Workspace\\DesafioFastBack\\Services\\TokenService.cs",
+              "RelativeToolTip": "Services\\TokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T17:21:01.46Z"
+              "WhenOpened": "2025-10-20T19:09:37.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsuarioModels.cs",
+              "DocumentMoniker": "D:\\Workspace\\DesafioFastBack\\Models\\UsuarioModels.cs",
+              "RelativeDocumentMoniker": "Models\\UsuarioModels.cs",
+              "ToolTip": "D:\\Workspace\\DesafioFastBack\\Models\\UsuarioModels.cs",
+              "RelativeToolTip": "Models\\UsuarioModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T19:09:33.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WorkshopModels.cs",
+              "DocumentMoniker": "D:\\Workspace\\DesafioFastBack\\Models\\WorkshopModels.cs",
+              "RelativeDocumentMoniker": "Models\\WorkshopModels.cs",
+              "ToolTip": "D:\\Workspace\\DesafioFastBack\\Models\\WorkshopModels.cs",
+              "RelativeToolTip": "Models\\WorkshopModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T18:36:49.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AtaModels.cs",
+              "DocumentMoniker": "D:\\Workspace\\DesafioFastBack\\Models\\AtaModels.cs",
+              "RelativeDocumentMoniker": "Models\\AtaModels.cs",
+              "ToolTip": "D:\\Workspace\\DesafioFastBack\\Models\\AtaModels.cs",
+              "RelativeToolTip": "Models\\AtaModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T18:36:42.443Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\O\\Documents\\DesafioFast\\Program.cs",
+              "DocumentMoniker": "D:\\Workspace\\DesafioFastBack\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\O\\Documents\\DesafioFast\\Program.cs",
+              "ToolTip": "D:\\Workspace\\DesafioFastBack\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAiwF0AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAuwFgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T03:50:26.615Z",
+              "WhenOpened": "2025-10-20T18:34:26.203Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Workspace\\DesafioFastBack\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Workspace\\DesafioFastBack\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-20T18:36:13.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Workspace\\DesafioFastBack\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "D:\\Workspace\\DesafioFastBack\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-20T18:34:25.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DesafioFast.http",
+              "DocumentMoniker": "D:\\Workspace\\DesafioFastBack\\DesafioFast.http",
+              "RelativeDocumentMoniker": "DesafioFast.http",
+              "ToolTip": "D:\\Workspace\\DesafioFastBack\\DesafioFast.http",
+              "RelativeToolTip": "DesafioFast.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-20T18:34:25.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DesafioFast.csproj.user",
+              "DocumentMoniker": "D:\\Workspace\\DesafioFastBack\\DesafioFast.csproj.user",
+              "RelativeDocumentMoniker": "DesafioFast.csproj.user",
+              "ToolTip": "D:\\Workspace\\DesafioFastBack\\DesafioFast.csproj.user",
+              "RelativeToolTip": "DesafioFast.csproj.user",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2025-10-20T18:34:25.392Z"
             }
           ]
         }

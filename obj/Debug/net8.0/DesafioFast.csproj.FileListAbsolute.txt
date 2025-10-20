@@ -1080,3 +1080,4 @@ D:\Workspace\DesafioFastBack\obj\Debug\net8.0\refint\DesafioFast.dll
 D:\Workspace\DesafioFastBack\obj\Debug\net8.0\DesafioFast.pdb
 D:\Workspace\DesafioFastBack\obj\Debug\net8.0\DesafioFast.genruntimeconfig.cache
 D:\Workspace\DesafioFastBack\obj\Debug\net8.0\ref\DesafioFast.dll
+D:\Workspace\DesafioFastBack\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
