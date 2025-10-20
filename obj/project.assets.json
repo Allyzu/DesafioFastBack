@@ -5877,24 +5877,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\O\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\allys\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\O\\Documents\\DesafioFastBack\\DesafioFast.csproj",
+      "projectUniqueName": "D:\\Workspace\\DesafioFastBack\\DesafioFast.csproj",
       "projectName": "DesafioFast",
-      "projectPath": "C:\\Users\\O\\Documents\\DesafioFastBack\\DesafioFast.csproj",
-      "packagesPath": "C:\\Users\\O\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\O\\Documents\\DesafioFastBack\\obj\\",
+      "projectPath": "D:\\Workspace\\DesafioFastBack\\DesafioFast.csproj",
+      "packagesPath": "C:\\Users\\allys\\.nuget\\packages\\",
+      "outputPath": "D:\\Workspace\\DesafioFastBack\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\O\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\allys\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5986,7 +5981,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
